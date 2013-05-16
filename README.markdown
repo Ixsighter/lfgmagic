@@ -2,7 +2,8 @@ LFG Magic
 =========
 
 LFG Magic is a small utility that works with http://gw2lfg.com/ API.
-[Screenshot](http://goo.gl/B6fWF)
+
+Screenshot: http://goo.gl/B6fWF
 
 Features
 --------
@@ -20,18 +21,20 @@ Requirements
 
 > It is also requires Microsoft Visual C++ 2010 Redistributable Package on target machines.
 
-Build .exe:
+Usage
+-----
+
+**Build .exe**
 
 	python setup.py build
 
-Build .msi:
+**Build .msi**
 
 	python setup.py bdist_msi
 
-Pre-builded .msi can be found at http://goo.gl/i7VB7 (64-bit versions only!)
+> Pre-builded .msi can be found at http://goo.gl/i7VB7 (64-bit versions only!)
 
-Other nice stuff:
+**Other nice stuff**
 
 	pyuic4.bat untitled.ui -o ui.py
-
 	pyrcc4.exe resources.qrc -o resources_rc.py -py3

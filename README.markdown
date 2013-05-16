@@ -21,13 +21,17 @@ Requirements
 > It is also requires Microsoft Visual C++ 2010 Redistributable Package on target machines.
 
 Build .exe:
-  python setup.py build
+
+	python setup.py build
 
 Build .msi:
+
 	python setup.py bdist_msi
 
 Pre-builded .msi can be found at http://goo.gl/i7VB7 (64-bit versions only!)
 
 Other nice stuff:
+
 	pyuic4.bat untitled.ui -o ui.py
+
 	pyrcc4.exe resources.qrc -o resources_rc.py -py3

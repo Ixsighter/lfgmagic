@@ -1,9 +1,9 @@
 LFG Magic
 =========
 
-LFG Magic is a small utility that works with http://gw2lfg.com/ API.
-
+LFG Magic is a small utility that works with http://gw2lfg.com/ API.  
 Screenshot: http://goo.gl/B6fWF
+
 
 Features
 --------
@@ -11,6 +11,7 @@ Features
 - context menu with common chat commands (```<%nick%>```, ```</join %nick%>``` and ```</invite %nick%>```)
 - sound notification on new entries
 - simple interface
+
 
 Requirements
 ------------
@@ -21,9 +22,9 @@ Requirements
 
 > It is also requires Microsoft Visual C++ 2010 Redistributable Package on target machines.
 
+
 Usage
 -----
-
 **Build .exe**
 
 	python setup.py build
